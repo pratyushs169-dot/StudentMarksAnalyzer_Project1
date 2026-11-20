@@ -38,7 +38,7 @@ public class Project1 {
         double average = (double) total / count;
         System.out.println("\n*** CLASS STATISTICS ***");
         System.out.println("Total students: " + count);
-        System.out.printf("Average marks: %.2f%n", average);
+        System.out.println("Average marks: "+ average);
         System.out.println("Highest marks: " + highest);
         System.out.println("Lowest marks: " + lowest);
         System.out.println("\n*** TOPPER(S) ***");//topper list
