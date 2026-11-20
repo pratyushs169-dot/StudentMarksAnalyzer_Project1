@@ -41,7 +41,7 @@ public class Project1 {
         System.out.println("Average marks: "+ average);
         System.out.println("Highest marks: " + highest);
         System.out.println("Lowest marks: " + lowest);
-        System.out.println("\n*** TOPPER(S) ***");//topper list
+        System.out.println("\n*** TOPPER(S) ***");//topper
         for (int i = 0; i < count; i++) {
             if (marks[i] == highest) {
                 System.out.println(" "+ names[i]);
